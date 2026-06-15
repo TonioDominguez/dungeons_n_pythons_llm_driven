@@ -61,11 +61,11 @@ Necesitas una API key gratuita de Groq. La puedes obtener en [console.groq.com](
 
 1. Clona el repositorio
 
-   ```git clone https://github.com/TonioDominguez/claude-dungeons-n-pythons.git```
+   ```git clone https://github.com/TonioDominguez/dungeons_n_pythons_llm_driven.git```
 
 2. Navega al directorio
 
-   ```cd claude-dungeons-n-pythons```
+   ```cd dungeons_n_pythons_llm_driven```
 
 3. Instala las dependencias
 
