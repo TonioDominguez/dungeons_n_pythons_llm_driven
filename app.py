@@ -139,7 +139,15 @@ def load_resources():
     manager = SceneManager()
     return detector, manager
 
-detector, manager = load_resources()
+try:
+    detector, manager = load_resources()
+except ValueError:
+    st.error(
+        "**GROQ_API_KEY no encontrada.** "
+        "Añádela en Streamlit Cloud → Manage app → Settings → Secrets:\n\n"
+        "```toml\nGROQ_API_KEY = \"gsk_...\"\n```"
+    )
+    st.stop()
 
 if "state" not in st.session_state:
     st.session_state.state = None
