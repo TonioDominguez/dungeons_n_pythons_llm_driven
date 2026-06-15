@@ -11,7 +11,13 @@ def init_groq():
     global _client
     api_key = os.getenv("GROQ_API_KEY")
     if not api_key:
-        raise ValueError("GROQ_API_KEY no encontrada. Revisa tu archivo .env")
+        try:
+            import streamlit as st
+            api_key = st.secrets["GROQ_API_KEY"]
+        except Exception:
+            pass
+    if not api_key:
+        raise ValueError("GROQ_API_KEY no encontrada. Revisa tu archivo .env o los Secrets de Streamlit Cloud")
     _client = Groq(api_key=api_key)
 
 
