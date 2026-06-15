@@ -1,0 +1,26 @@
+# Variables de entorno — NUNCA subir al repo
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# IDEs
+.vscode/
+.idea/
+
+# Modelos descargados (pesados)
+models/
+sentence_transformers_cache/
