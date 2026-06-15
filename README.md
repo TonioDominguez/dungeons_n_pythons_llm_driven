@@ -61,7 +61,7 @@ dungeons_n_pythons_llm_driven/
 
 Puedes jugar directamente en el deploy público sin instalar nada: https://dnp-llm-driven.streamlit.app/
 
-Si prefieres ejecutarlo en local, necesitas una API key gratuita de Groq. La puedes obtener en [console.groq.com](https://console.groq.com/keys) sin tarjeta de crédito.
+Si prefieres ejecutarlo en local, necesitas una API key gratuita de Groq. La puedes obtener en [console.groq.com](https://console.groq.com/keys) de gratis.
 
 1. Clona el repositorio
 
@@ -97,7 +97,7 @@ Las cuatro escenas del juego son:
 
 ## Apuntes finales
 
-Este proyecto es un prototipo funcional que muestra lo que ocurre cuando combinas embeddings para la lógica de juego con un LLM para la narrativa. El resultado me ha sorprendido bastante: el Dungeon Master responde de forma coherente al personaje, recuerda lo que ha pasado y adapta el tono a la situación mejor de lo que esperaba al empezar.
+Este proyecto es un prototipo funcional que añade el factor LLM a la narrativa del juego, sumado al ya existente sistema de embbedings que hacía avanzar en la aventura al jugador dependiendo de la aproximación de sus imputs a las palabras claves embebidas. Esta mejora permite que el Dungeon Master responda de forma coherente al jugador, recuerde lo que ha pasado y adapte el tono a la situación mejor de lo que esperaba al empezar.
 
 Hay cosas que me gustaría desarrollar en el futuro, como un sistema de combate con dados y tiradas reales, más escenas y ramificaciones, o inventario interactivo. Pero como punto de partida creo que refleja bien hacia dónde puede ir este tipo de proyectos.
 
