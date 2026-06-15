@@ -59,7 +59,9 @@ dungeons_n_pythons_llm_driven/
 
 ## Cómo jugar
 
-Necesitas una API key gratuita de Groq. La puedes obtener en [console.groq.com](https://console.groq.com/keys) sin tarjeta de crédito.
+Puedes jugar directamente en el deploy público sin instalar nada: https://dnp-llm-driven.streamlit.app/
+
+Si prefieres ejecutarlo en local, necesitas una API key gratuita de Groq. La puedes obtener en [console.groq.com](https://console.groq.com/keys) sin tarjeta de crédito.
 
 1. Clona el repositorio
 
