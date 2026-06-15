@@ -13,7 +13,7 @@ Este proyecto es continuación directa de [Dungeons & Pythons (Embedding Edition
 ## Contenido del repositorio
 
 ```
-claude-dungeons-n-pythons/
+dungeons_n_pythons_llm_driven/
 │
 ├── content/                    # Contenido narrativo y de personaje
 │   ├── characters.py           # Razas, clases y atributos D&D
