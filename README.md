@@ -1,3 +1,5 @@
+![Dungeons and Pythons](https://imgur.com/a/g061inc)
+
 # Dungeons & Pythons: Las Criptas de Undermountain
 
 ## Resumen del proyecto
