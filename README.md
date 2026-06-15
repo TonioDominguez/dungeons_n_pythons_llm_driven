@@ -1,4 +1,4 @@
-![Dungeons and Pythons](https://imgur.com/a/g061inc.png)
+![Dungeons and Pythons](https://i.imgur.com/o6U4opf.png)
 
 # Dungeons & Pythons: Las Criptas de Undermountain
 
